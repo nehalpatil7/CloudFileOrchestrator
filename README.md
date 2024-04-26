@@ -4,3 +4,5 @@
 
 - AWS Region = us-east-2 (Ohio)
 - S3 bucket name = npatil14fovuschallenge
+- IAM username = nehal_fovus_challenge
+- IAM password = Nehal-fovus
