@@ -6,8 +6,8 @@ import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 const s3Client = new S3Client({
   region: 'us-east-2',
   credentials: {
-    accessKeyId: "AKIASZWORN6LGI77JGW3",
-    secretAccessKey: "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",
+    accessKeyId: "xxxxxxxxxxxxxxxxxxxxxxxxx",
+    secretAccessKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   },
 });
 
@@ -41,7 +41,7 @@ function App() {
       const reader = new FileReader();
       reader.readAsText(file);
       const s3Params = {
-        Bucket: 'awscdkstack-npatil14fovuschallengec75ed359-qyn4i8jxadmg',
+        Bucket: 'awscdkstack-xxxxxxxxxxxxxxxxxxxxxxxxxxxx-qyn4i8jxadmg',
         Key: file.name,
         Body: file,
       };
@@ -53,7 +53,7 @@ function App() {
       formData.append('fileName', file?.name);
 
       const dynamoDBData = await axios.post(
-        'https://v7khbmv0na.execute-api.us-east-2.amazonaws.com/dev/save',
+        'https://xxxxxxxxxx.execute-api.us-east-2.amazonaws.com/dev/save',
         formData,
         {
           headers: {
