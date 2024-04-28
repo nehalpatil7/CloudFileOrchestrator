@@ -10,8 +10,8 @@ export const handler = async (event, context) => {
         const dynamoDBClient = new DynamoDBClient({
             region: 'us-east-2',
             credentials: {
-                accessKeyId: "AKIASZWORN6LGI77JGW3",
-                secretAccessKey: "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",
+                accessKeyId: "xxxxxxxxxxxxxxxxxxxxxx",
+                secretAccessKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
             },
         });
 
