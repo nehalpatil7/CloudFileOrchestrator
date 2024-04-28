@@ -1,0 +1,7 @@
+my-react-app/node_modules/
+
+aws_cdk/node_modules/
+
+aws_cdk/lambda/node_modules/
+
+aws_cdk/lambda_vm/node_modules/
