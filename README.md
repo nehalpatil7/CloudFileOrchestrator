@@ -1,11 +1,10 @@
-# fovusChallenge
-## Fovus Full-stack SDE Challenge
+# React | AWS | Bash
 ### Integrating React, AWS (EC2, S3, DynamoDB, Lambda), Git
 
 - AWS Region = us-east-2 (Ohio)
 - S3 bucket name = arn:aws:s3:::awscdkstack-xxxxxxxxxxxxxxxxxxx-qyn4i8jxadmg
-- IAM username = nehal_fovus_challenge
-- IAM password = Nehal-fovus
+- IAM username = nehal_xxxxxxxxxxxxx
+- IAM password = nehal-xxxxxxxxxxxxx
 - key2 | access key = xxxxxxxxxxxxxxxxxxx | secret = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
