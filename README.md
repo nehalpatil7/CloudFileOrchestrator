@@ -3,10 +3,10 @@
 ### Integrating React, AWS (EC2, S3, DynamoDB, Lambda), Git
 
 - AWS Region = us-east-2 (Ohio)
-- S3 bucket name = arn:aws:s3:::awscdkstack-npatil14fovuschallengec75ed359-qyn4i8jxadmg
+- S3 bucket name = arn:aws:s3:::awscdkstack-xxxxxxxxxxxxxxxxxxx-qyn4i8jxadmg
 - IAM username = nehal_fovus_challenge
 - IAM password = Nehal-fovus
-- key2 | access key = AKIASZWORN6LGI77JGW3 | secret = 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
+- key2 | access key = xxxxxxxxxxxxxxxxxxx | secret = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ### Steps
