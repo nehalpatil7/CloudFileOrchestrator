@@ -15,7 +15,7 @@ export async function handler(event, context) {
         const ec2Client = new EC2Client({ region: "us-east-2" });
 
         const db_get_command = new GetCommand({
-            TableName: "AwsCdkStack-npatil14fovuschallengedb39F4F1DF-18J3P0C3X7IO5",
+            TableName: "AwsCdkStack-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
             Key: {
                 id: event_key,
             },
@@ -28,8 +28,8 @@ export async function handler(event, context) {
                 MinCount: 1,
                 ImageId: 'ami-09b90e09742640522',
                 InstanceType: 't2.micro',
-                SecurityGroupIds: ['sg-0a709bafe7fac7dac'],
-                SubnetId: ['subnet-0443e0157f2a2bc04'],
+                SecurityGroupIds: ['sg-xxxxxxxxxxxxxxxx'],
+                SubnetId: ['subnet-xxxxxxxx'],
                 KeyName: 'fovus2',
                 IamInstanceProfile: {
                     Name: "ec2_to_S3"
